@@ -103,7 +103,7 @@ async function startTest(gridUrl, capabilities, name) {
 
       // For Smartui TakeScreenshot
       setTimeout(function () {
-        console.log("taking screenshot ...")
+        console.log("taking screenshot ....")
         let config = {
           screenshotName: "web-page"
         };
