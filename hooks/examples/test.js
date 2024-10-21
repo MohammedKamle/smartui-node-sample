@@ -33,7 +33,7 @@ async function searchTextOnGoogle() {
     name: "test session", // name of the test
     build: platform + browserName + version, // name of the build
     "LT:Options": {
-      "smartUI.project": "smartuigithub",
+      "smartUI.project": "smartuigithub-integration",
       // will generate random smartUI build if not specified
       // "smartUI.build": "first", 
       "smartUI.options": {
@@ -103,7 +103,7 @@ async function startTest(gridUrl, capabilities, name) {
 
       // For Smartui TakeScreenshot
       setTimeout(function () {
-        console.log("taking screenshot ...")
+        console.log("taking screenshot ....")
         let config = {
           screenshotName: "web-page"
         };
