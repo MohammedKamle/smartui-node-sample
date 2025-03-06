@@ -3,7 +3,7 @@ const { smartuiSnapshot } = require('@lambdatest/selenium-driver');
 
 (async function example() {
   let driver = await new Builder().forBrowser("chrome").build();
-
+    // test
   try {
     await driver.get("https://www.lambdatest.com");
     await smartuiSnapshot(driver, "Lambdatest");
