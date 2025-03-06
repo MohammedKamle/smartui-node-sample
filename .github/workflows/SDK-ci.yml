@@ -6,9 +6,9 @@ on:
   workflow_dispatch:
 
 env:
-  LT_USERNAME: ${{ secrets.LT_USERNAME }}
-  LT_ACCESS_KEY: ${{ secrets.LT_ACCESS_KEY }}
-  PROJECT_TOKEN: ${{ secrets.PROJECT_TOKEN }}
+  LT_USERNAME: mkamle86
+  LT_ACCESS_KEY: Z4fjukn5CSrn4uJEwEh8wO6DtK4I8kyVPKImW5cdD8z1Tm1RIn
+  PROJECT_TOKEN: 1772264#31ae015c-a7a2-4548-9b8c-0a11338b39f4#playwright-sdk-github
   LT_SDK_DEBUG: true
   SMARTUI_DEBUG: true
 
